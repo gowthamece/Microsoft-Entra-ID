@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>28b9e810-a061-460b-bab1-deeb2eaa7a9d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\fn-entra-id-utility\fn-entra-id-utility.csproj" />
+    <ProjectReference Include="..\Microsoft-Entra-ID.ApiService\Microsoft-Entra-ID.ApiService.csproj" />
+    <ProjectReference Include="..\Microsoft-Entra-ID.Web\Microsoft-Entra-ID.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

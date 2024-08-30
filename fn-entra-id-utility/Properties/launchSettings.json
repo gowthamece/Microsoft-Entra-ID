@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fn_entra_id_utility": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7009",
+      "launchBrowser": false
+    }
+  }
+}
